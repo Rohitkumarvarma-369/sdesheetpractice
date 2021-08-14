@@ -8,5 +8,7 @@ LINKS: <br />
 leetcode: https://leetcode.com/problems/sort-colors/ <br />
 solution video: https://www.youtube.com/watch?v=oaVa-9wmpns&list=PLgUwDviBIf0rPG3Ictpu74YWBQ1CaBkm2 <br />
 ----------------------------------
-
-
+QN 2: Repeat and Missing Number <br />
+LINKS: <br />
+solution video: https://www.youtube.com/watch?v=5nMGY4VUoRY&list=PLgUwDviBIf0rPG3Ictpu74YWBQ1CaBkm2&index=3 <br />
+----------------------------------
