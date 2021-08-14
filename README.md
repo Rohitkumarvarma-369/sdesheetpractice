@@ -1,6 +1,12 @@
 # DSA SDE SHEET QNS
 Solving Striver's SDE sheet to gain perfection in important concepts of DSA 
 
-QN: Sort an array of 0’s 1’s 2’s without using extra space or sorting algo 
-LINK: https://leetcode.com/problems/sort-colors/
+Day 1: Arrays:
+----------------------------------
+QN 1: Sort an array of 0’s 1’s 2’s without using extra space or sorting algo 
+LINKS: 
+https://leetcode.com/problems/sort-colors/
+https://www.youtube.com/watch?v=oaVa-9wmpns&list=PLgUwDviBIf0rPG3Ictpu74YWBQ1CaBkm2
+----------------------------------
+
 
