@@ -9,7 +9,7 @@ Connect @ [LinkedIN](https://www.linkedin.com/in/rohit-kumar-varma-8b880b1b9/)
 
 Day1: Arrays
 ---
-Problem-1:
+**Problem-1:**
 **Title**: Sort an array of 0’s 1’s 2’s without using extra space or sorting algo 
 **Overview**: Given an array and a number n, the array contains n elements consisiting of only 0's, 1's and 2's
 sort the array such that 0's are on left 1's in middle and 2's in right. The final target is to acheive.
@@ -31,42 +31,71 @@ https://www.youtube.com/watch?v=oaVa-9wmpns&list=PLgUwDviBIf0rPG3Ictpu74YWBQ1CaB
 
 ---
 
-Problem-2:
-Title: Repeat and Missing Number 
+**Problem-2:**
+**Title**: Repeat and Missing Number 
 
-Overview: Given an array of size n with elements in the range {1,2,...n} inclusive. One number is replaced
+**Overview**: Given an array of size n with elements in the range {1,2,...n} inclusive. One number is replaced
 with another number, so find the repeating number and the missing number
 
-Brute: Just sort using sort algo from stl
+**Brute**: Just sort using sort algo from stl
 TL:O(nlogn), SC: O(1);
 
-Better: Use Hashing
+**Better**: Use Hashing
 TL:O(nlogn), SC: O(1);
 
-Optimal: Sum and SquareSum method;
+**Optimal**: Sum and SquareSum method;
 TL:O(n), O(1);
 
-Extra notes: https://www.youtube.com/watch?v=5nMGY4VUoRY&list=PLgUwDviBIf0rPG3Ictpu74YWBQ1CaBkm2&index=3
+**Extra notes**: https://www.youtube.com/watch?v=5nMGY4VUoRY&list=PLgUwDviBIf0rPG3Ictpu74YWBQ1CaBkm2&index=3
 
 ---
 
-Problem-3:
+**Problem-3:**
 
 ---
 
-Problem-4:
-Title: Kadane's Algo (Maximum Subarray Sum)
+**Problem-4:**
+**Title**: Kadane's Algo (Maximum Subarray Sum)
 
-Overview: Find the maximum sum of any subarray (consecutive elements), in the given array
+**Overview**: Find the maximum sum of any subarray (consecutive elements), in the given array
 
-Brute: three loops (0 to n-1, i to n-1, i to j here we do sum = sum+arr[k] and maxsum is calculated after this loop)
+**Brute**: three loops (0 to n-1, i to n-1, i to j here we do sum = sum+arr[k] and maxsum is calculated after this loop)
 T.C: O(n^3), S.C: O(1);
 
-Better: two loops (0 to n-1, i to n-1, and add sum at every step over here)
+**Better**: two loops (0 to n-1, i to n-1, and add sum at every step over here)
 T.C: O(n^2), S.C: O(1);
 
-Optimal: Kadanes algo
+**Optimal**: Kadanes algo
 
 Extra notes: https://www.youtube.com/watch?v=w_KEocd__20&list=PLgUwDviBIf0rPG3Ictpu74YWBQ1CaBkm2&index=6
+
+---
+**Problem-4:**
+
+**Title**: Merge Intervals
+
+**Overview**: given a collection of intervals like [[1,3], [2,6], [8, 10], [15, 18]], merge the overlapping
+
+intervals, O/P: [[1, 6], [8, 10], [15, 18]]
+
+*In interview we need to ask if the array is sorted or not.
+
+If not sorted we sort the array.
+
+**Brute**: We traverse throught the sorted array and check if the the current pair of intervals exisist in the
+
+extra ds if it exisits we skip else we search for merging interval after the pair if exisits it merges
+
+and stores it in the extra ds, else stores the pair itslef in the extra ds
+
+T.C: O(nlogn)+O(n^2), S.C: O(n);
+
+**Optimal**: First sort the vector intervals. Maintain a pair<int, int> and intialize it as first pair in the interval vector, and iterate linearly through the interval array and check if the current pair merges with the pair variable we are maintaining, if it merges replace the variable with the merged pair, and continue till we find non merging
+pair, if found push the current value of the variable into a data structure and then replace the curr variable
+with the non merging pair of the interval, finally we get all the merging pairs of the interval into the data structure.
+
+T.C: O(nlogn)+O(n), S.C: O(n);
+
+Extra notes: https://www.youtube.com/watch?v=2JzRBPFYbKE&list=PLgUwDviBIf0rPG3Ictpu74YWBQ1CaBkm2&index=7
 
 ---
