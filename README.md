@@ -1,4 +1,4 @@
-# DSA SDE SHEET QNS
+DSA SDE SHEET QNS
 Solving Striver's SDE sheet to gain perfection in important concepts of DSA 
 
 Day 1: Arrays:
