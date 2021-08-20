@@ -82,10 +82,7 @@ intervals, O/P: [[1, 6], [8, 10], [15, 18]]
 
 If not sorted we sort the array.
 
-**Brute**: We traverse throught the sorted array and check if the the current pair of intervals exisist in the
-
-extra ds if it exisits we skip else we search for merging interval after the pair if exisits it merges
-
+**Brute**: We traverse throught the sorted array and check if the the current pair of intervals exisist in the extra ds if it exisits we skip else we search for merging interval after the pair if exisits it merges
 and stores it in the extra ds, else stores the pair itslef in the extra ds
 
 T.C: O(nlogn)+O(n^2), S.C: O(n);
