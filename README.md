@@ -70,7 +70,7 @@ T.C: O(n^2), S.C: O(1);
 Extra notes: https://www.youtube.com/watch?v=w_KEocd__20&list=PLgUwDviBIf0rPG3Ictpu74YWBQ1CaBkm2&index=6
 
 ---
-**Problem-4:**
+**Problem-5:**
 
 **Title**: Merge Intervals
 
