@@ -1,4 +1,4 @@
-**# DSA SDE SHEET QNS
+# DSA SDE SHEET QNS
 Solving Striver's SDE sheet to gain perfection in important concepts of DSA 
 
 Day 1: Arrays:
@@ -10,7 +10,7 @@ solution video: https://www.youtube.com/watch?v=oaVa-9wmpns&list=PLgUwDviBIf0rPG
 ----------------------------------
 QN 2: Repeat and Missing Number <br />
 LINKS: <br />
-solution video: https://www.youtube.com/watch?v=5nMGY4VUoRY&list=PLgUwDviBIf0rPG3Ictpu74YWBQ1CaBkm2&index=3 <br />**
+solution video: https://www.youtube.com/watch?v=5nMGY4VUoRY&list=PLgUwDviBIf0rPG3Ictpu74YWBQ1CaBkm2&index=3 <br />
 ----------------------------------
 QN 3:  <br />
 
