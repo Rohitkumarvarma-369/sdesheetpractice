@@ -118,3 +118,33 @@ https://www.youtube.com/watch?v=32Ll35mhWg0&list=PLgUwDviBIf0rPG3Ictpu74YWBQ1CaB
 https://www.youtube.com/watch?v=dfIqLxAf-8s (Very good explanation of the floyd cycle detection algo)
 
 ---
+
+Day2: Arrays
+---
+**Problem-1:**
+**Title**: Set Matrix Zeros 
+
+**Overview**: Given an matrix, with zerores at certian positions, if a postion contains zero, make that col
+row filled with zeroes. 
+
+**Brute**: We can iterate through the whole array and when we find 0 we traverse its whole row and coloumn and
+if the element is not 0 than we change the element to -1, after changing all the required elements to -1
+we traverse again and make all -1's 0/
+T.C: O((n*m)*(n+m)), S.C: O(1);
+
+**Better**: We take two dummy arrays, we traverse throgught the array and if we find the elemnt to be zero
+then we make the col index and row index in the dummy arrays zero and again traverse the matrix, if
+one of the col or row at current index is zero we change the curr element to zero.
+T.C: O((n*m)+(n*m)), S.C: O(n+m);
+
+**Optimal**: We bring both these dummy arrays into the matrix itself and the first dummy array is the first
+row, and the second dummy array is the first col, and we maintain a bool called colval = true initially
+which checks if any of the element in the first col is zero, if zero we update the colval = false, this
+is done to make sure that the elements dont turn zero due to the elements which turned into zeroes due to
+the original zero elements. We traverse from back of the matrix and fill the matrix with zeroes at 
+appropirate positions according to the zeroes in the dummy arrays and the colvar.
+T.C: O((n*m)+(n*m)), S.C: O(1);
+
+**Extra notes**: https://www.youtube.com/watch?v=M65xBewcqcI&list=PLgUwDviBIf0rPG3Ictpu74YWBQ1CaBkm2
+
+---
