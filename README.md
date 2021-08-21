@@ -250,9 +250,11 @@ https://leetcode.com/problems/best-time-to-buy-and-sell-stock/ (leetcode)
 **Overview**: Given a matrix rotate it by 90 degrees in clockwise direction
 
 **Brute**: We can use temp array and store all the rows in the main array as cols in the temp array.
+
 T.C: O(n^2), S.C: O(n^2);
 
 **Optimal**: We can transpose the array and then reverse each row in the array.
+
 T.C: O(n^2), O(1) (in-place)
 
 **Extra notes:** https://www.youtube.com/watch?v=Y72QeX0Efxw&list=PLgUwDviBIf0rPG3Ictpu74YWBQ1CaBkm2&index=13
