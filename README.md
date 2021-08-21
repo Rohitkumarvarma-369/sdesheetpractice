@@ -10,8 +10,7 @@ Connect @ [LinkedIN](https://www.linkedin.com/in/rohit-kumar-varma-8b880b1b9/)
 Day1: Arrays
 ---
 **Problem-1:**
-**Title**: Sort an array of 0’s 1’s 2’s without using extra space or sorting algo
-
+**Title**: Sort an array of 0’s 1’s 2’s without using extra space or sorting algo 
 **Overview**: Given an array and a number n, the array contains n elements consisiting of only 0's, 1's and 2's
 sort the array such that 0's are on left 1's in middle and 2's in right. The final target is to acheive.
 this without using any space.
@@ -147,5 +146,31 @@ appropirate positions according to the zeroes in the dummy arrays and the colvar
 T.C: O((n*m)+(n*m)), S.C: O(1);
 
 **Extra notes**: https://www.youtube.com/watch?v=M65xBewcqcI&list=PLgUwDviBIf0rPG3Ictpu74YWBQ1CaBkm2
+
+---
+
+**Problem-2:**
+**Title**: Pascal Triangle 
+
+**Overview**: We see 3 types of questions here 1. print the whole pascal traingle, print the nth row of a 
+pascale traingle or print the mth element in nth row of a pascal traingle.
+
+**Type-1**: **To print the whole pascale traingle:** We just use the basic condition with which pascal traingle
+is built i.e. we add the top left and top right elements to get the current element.
+T.C: O(n^2) 
+S.C: O(n^2);
+
+**Type-2: To print the mth element in the nth row of a pascal traingle:** We use the formula (Row-1)C(Col-1)
+this takes time complexity of O(n).
+T.C: O(n), S.C: O(1); 
+
+**Type-3: To print the nth row of the pascal traingle:** We use the formula (Row-1)C(Col-1) itself but we 
+dont directly do it for every element because doing so we need more time complexuty, i.e, O(n) for every
+in the pascals traingle, that is O(n^2) to reduce that we use a trick, that is every previous element
+in the row needs to be multiplied by rowno-col and divided by col, and reassign the prev val this makes
+the time complexity linear time. 
+T.C: O(n), S.C: O(n);
+
+**Extra notes:** https://www.youtube.com/watch?v=6FLvhQjZqvM&list=PLgUwDviBIf0rPG3Ictpu74YWBQ1CaBkm2&index=8
 
 ---
