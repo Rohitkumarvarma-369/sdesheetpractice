@@ -10,7 +10,8 @@ Connect @ [LinkedIN](https://www.linkedin.com/in/rohit-kumar-varma-8b880b1b9/)
 Day1: Arrays
 ---
 **Problem-1:**
-**Title**: Sort an array of 0’s 1’s 2’s without using extra space or sorting algo 
+**Title**: Sort an array of 0’s 1’s 2’s without using extra space or sorting algo
+
 **Overview**: Given an array and a number n, the array contains n elements consisiting of only 0's, 1's and 2's
 sort the array such that 0's are on left 1's in middle and 2's in right. The final target is to acheive.
 this without using any space.
