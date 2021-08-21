@@ -174,3 +174,21 @@ T.C: O(n), S.C: O(n);
 **Extra notes:** https://www.youtube.com/watch?v=6FLvhQjZqvM&list=PLgUwDviBIf0rPG3Ictpu74YWBQ1CaBkm2&index=8
 
 ---
+
+Probelm-3:
+**Title**: Next Permutation 
+
+**Overview**: Given an array of numbers print the next permuation of the array sequence
+
+**Brute**: use next_permutation() inbuilt in cpp but usually inbuilt is not accepted at interview
+
+**Optimal**: We find the pivot point which is the point at which the next dictionary sequence starts from
+like if we take 1 2 3 the pivot point is 2 as the next number in dictionary is 1 3 2. We find this in step-1
+by finding the first non-increasing number from the backside and then in step-2 we find the first number
+greater than the number we find in step-1, and then we swap the numbers found in step-1 and step-2.
+After swapping we reverse the numbers from pivot(step1)+1 to the last index to maintain the lowest rank
+sequence.
+
+**Extra notes**: https://www.youtube.com/watch?v=LuLCLgMElus&list=PLgUwDviBIf0rPG3Ictpu74YWBQ1CaBkm2&index=10
+
+---
