@@ -12,7 +12,6 @@ Day1: Arrays
 **Problem-1:**
 
 **Title**: Sort an array of 0’s 1’s 2’s without using extra space or sorting algo 
-
 **Overview**: Given an array and a number n, the array contains n elements consisiting of only 0's, 1's and 2's
 sort the array such that 0's are on left 1's in middle and 2's in right. The final target is to acheive.
 this without using any space.
@@ -198,5 +197,24 @@ After swapping we reverse the numbers from pivot(step1)+1 to the last index to m
 sequence.
 
 **Extra notes**: https://www.youtube.com/watch?v=LuLCLgMElus&list=PLgUwDviBIf0rPG3Ictpu74YWBQ1CaBkm2&index=10
+
+---
+**Problem-4:**
+**Title**: Inversion of Array (Using Merge Sort)
+
+**Overview**: Given an array find the number of count inversions in the array. Count inversion can be
+
+defined as the follows: no of instances when i>j and arr[i]>arr[j].
+
+**Brute**: for(for()) loop and find the number of times this case satisfies.
+
+T.C: O(n^2), S.C: O(1);
+
+**Optimal**: Here we use a kind of merge sort, which is modified for this specific purpose of the qn. In general the merge sort breaks the array into individual elements and compare them in the individual level and the merge them back according to the comparision. So this is also similar
+but after breaking into the individual elements before combining them, we count the number of elements
+to the right of the smaller element and add them to the inversion count variable, in each iteration of merge process.
+T.C: O(nlogn), S.C: O(n);
+
+**Extra notes:** https://www.youtube.com/watch?v=kQ1mJlwW-c0&list=PLgUwDviBIf0rPG3Ictpu74YWBQ1CaBkm2&index=11
 
 ---
