@@ -210,9 +210,8 @@ defined as the follows: no of instances when i>j and arr[i]>arr[j].
 
 T.C: O(n^2), S.C: O(1);
 
-**Optimal**: Here we use a kind of merge sort, which is modified for this specific purpose of the qn. In general the merge sort breaks the array into individual elements and compare them in the individual level and the merge them back according to the comparision. So this is also similar
-but after breaking into the individual elements before combining them, we count the number of elements
-to the right of the smaller element and add them to the inversion count variable, in each iteration of merge process.
+**Optimal**: Here we use a kind of merge sort, which is modified for this specific purpose of the qn. In general the merge sort breaks the array into individual elements and compare them in the individual level and the merge them back according to the comparision. So this is also similar but after breaking into the individual elements before combining them, we count the number of elements to the right of the smaller element and add them to the inversion count variable, in each iteration of merge process.
+
 T.C: O(nlogn), S.C: O(n);
 
 **Extra notes:** https://www.youtube.com/watch?v=kQ1mJlwW-c0&list=PLgUwDviBIf0rPG3Ictpu74YWBQ1CaBkm2&index=11
