@@ -10,7 +10,9 @@ Connect @ [LinkedIN](https://www.linkedin.com/in/rohit-kumar-varma-8b880b1b9/)
 Day1: Arrays
 ---
 **Problem-1:**
+
 **Title**: Sort an array of 0’s 1’s 2’s without using extra space or sorting algo 
+
 **Overview**: Given an array and a number n, the array contains n elements consisiting of only 0's, 1's and 2's
 sort the array such that 0's are on left 1's in middle and 2's in right. The final target is to acheive.
 this without using any space.
@@ -32,6 +34,7 @@ https://www.youtube.com/watch?v=oaVa-9wmpns&list=PLgUwDviBIf0rPG3Ictpu74YWBQ1CaB
 ---
 
 **Problem-2:**
+
 **Title**: Repeat and Missing Number 
 
 **Overview**: Given an array of size n with elements in the range {1,2,...n} inclusive. One number is replaced
@@ -55,6 +58,7 @@ TL:O(n), O(1);
 ---
 
 **Problem-4:**
+
 **Title**: Kadane's Algo (Maximum Subarray Sum)
 
 **Overview**: Find the maximum sum of any subarray (consecutive elements), in the given array
@@ -100,6 +104,7 @@ Extra notes: https://www.youtube.com/watch?v=2JzRBPFYbKE&list=PLgUwDviBIf0rPG3Ic
 
 ---
 **Problem-6:**
+
 **Title**: Find the duplicate in an array of N+1 integers.
 
 **Overview**: Given an array and n, array elements ranging from 1 to n, find the number which is duplicate in the array.
@@ -122,6 +127,7 @@ https://www.youtube.com/watch?v=dfIqLxAf-8s (Very good explanation of the floyd 
 Day2: Arrays
 ---
 **Problem-1:**
+
 **Title**: Set Matrix Zeros 
 
 **Overview**: Given an matrix, with zerores at certian positions, if a postion contains zero, make that col
@@ -150,6 +156,7 @@ T.C: O((n*m)+(n*m)), S.C: O(1);
 ---
 
 **Problem-2:**
+
 **Title**: Pascal Triangle 
 
 **Overview**: We see 3 types of questions here 1. print the whole pascal traingle, print the nth row of a 
@@ -176,6 +183,7 @@ T.C: O(n), S.C: O(n);
 ---
 
 Probelm-3:
+
 **Title**: Next Permutation 
 
 **Overview**: Given an array of numbers print the next permuation of the array sequence
