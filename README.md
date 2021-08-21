@@ -82,7 +82,10 @@ intervals, O/P: [[1, 6], [8, 10], [15, 18]]
 
 If not sorted we sort the array.
 
-**Brute**: We traverse throught the sorted array and check if the the current pair of intervals exisist in the extra ds if it exisits we skip else we search for merging interval after the pair if exisits it merges
+**Brute**: We traverse throught the sorted array and check if the the current pair of intervals exisist in the
+
+extra ds if it exisits we skip else we search for merging interval after the pair if exisits it merges
+
 and stores it in the extra ds, else stores the pair itslef in the extra ds
 
 T.C: O(nlogn)+O(n^2), S.C: O(n);
@@ -94,5 +97,24 @@ with the non merging pair of the interval, finally we get all the merging pairs 
 T.C: O(nlogn)+O(n), S.C: O(n);
 
 Extra notes: https://www.youtube.com/watch?v=2JzRBPFYbKE&list=PLgUwDviBIf0rPG3Ictpu74YWBQ1CaBkm2&index=7
+
+---
+**Problem-6:**
+**Title**: Find the duplicate in an array of N+1 integers.
+
+**Overview**: Given an array and n, array elements ranging from 1 to n, find the number which is duplicate in the array.
+
+**Brute**: Sort the array and find the duplicate, but this will distort the array
+T.C: O(nlogn), S.C: O(1);
+
+**Better**: Hashing (Frequency array)
+T.C: O(n), S.C: O(n);
+
+**Optimal**: Linked List Cycle method, create a cycle of the form index->val->index and then as there are duplicate elements of a single value, all of them point to a single index called the intersection element we traverse through the array with fast and slow pointers(floyd cycle detection algo), and find the intersection of fast and slow pointers and then we make the fast pointer slow and point it to the 0th index and move both slow and fast(slowed down fast) till same elements are found and that element is the duplicate element.
+T.C: O(n), S.C: O(1);
+
+**Extra notes:**
+https://www.youtube.com/watch?v=32Ll35mhWg0&list=PLgUwDviBIf0rPG3Ictpu74YWBQ1CaBkm2&index=2
+https://www.youtube.com/watch?v=dfIqLxAf-8s (Very good explanation of the floyd cycle detection algo)
 
 ---
