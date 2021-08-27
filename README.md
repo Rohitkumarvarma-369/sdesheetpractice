@@ -54,6 +54,20 @@ TL:O(n), O(1);
 
 **Problem-3:**
 
+**Title**: Merge two sorted Arrays without extra space 
+
+**Overview**: Given two sorted arrays, merge them both in sorted order. Initially we will try with extra space and then we will optimise without any extra space.
+
+**Brute**: Use a third array and then plug in all the elements of both the arrays, sort the third array and plug the elements back.
+TL:O(nlogn), SC: O(n);
+
+**Better**: We will not use any auxilary space, we will traverse the firse array and then we will compare every element of the first array and the second array and if the elements of the second array is greater than the first array, then swap them and place the swapped element from the first array properly in the second array such that the sorted order remains intact (this can be done by traversing through the second array and placing in appropirate postion)
+TL:O(n), SC: O(1);
+
+**Optimal**: GAP method (too complex, will implement later).
+
+**Extra notes:** https://www.youtube.com/watch?v=hVl2b3bLzBw&list=PLgUwDviBIf0rPG3Ictpu74YWBQ1CaBkm2&index=5
+
 ---
 
 **Problem-4:**
@@ -70,7 +84,7 @@ T.C: O(n^2), S.C: O(1);
 
 **Optimal**: Kadanes algo
 
-Extra notes: https://www.youtube.com/watch?v=w_KEocd__20&list=PLgUwDviBIf0rPG3Ictpu74YWBQ1CaBkm2&index=6
+**Extra notes:** https://www.youtube.com/watch?v=w_KEocd__20&list=PLgUwDviBIf0rPG3Ictpu74YWBQ1CaBkm2&index=6
 
 ---
 **Problem-5:**
@@ -99,7 +113,7 @@ with the non merging pair of the interval, finally we get all the merging pairs 
 
 T.C: O(nlogn)+O(n), S.C: O(n);
 
-Extra notes: https://www.youtube.com/watch?v=2JzRBPFYbKE&list=PLgUwDviBIf0rPG3Ictpu74YWBQ1CaBkm2&index=7
+**Extra notes:** https://www.youtube.com/watch?v=2JzRBPFYbKE&list=PLgUwDviBIf0rPG3Ictpu74YWBQ1CaBkm2&index=7
 
 ---
 **Problem-6:**
@@ -250,14 +264,11 @@ https://leetcode.com/problems/best-time-to-buy-and-sell-stock/ (leetcode)
 **Overview**: Given a matrix rotate it by 90 degrees in clockwise direction
 
 **Brute**: We can use temp array and store all the rows in the main array as cols in the temp array.
-
 T.C: O(n^2), S.C: O(n^2);
 
 **Optimal**: We can transpose the array and then reverse each row in the array.
-
 T.C: O(n^2), O(1) (in-place)
 
 **Extra notes:** https://www.youtube.com/watch?v=Y72QeX0Efxw&list=PLgUwDviBIf0rPG3Ictpu74YWBQ1CaBkm2&index=13
 
 ---
-
